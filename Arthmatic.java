@@ -1,7 +1,7 @@
-//Arthmatic operaters
+//Arthmetic operaters
 
 import java.util.Scanner;  
-class Arthmatic
+class Arthmetic
 {
 	public static void main(String args[]) 
 	{
