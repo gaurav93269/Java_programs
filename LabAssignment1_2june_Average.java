@@ -6,7 +6,7 @@ public class LabAssignment1_2june_Average
     public static void main(String[] args)
 	{ 
                 Scanner sc = new Scanner(System.in);
-	       	int i, avg, num=0;
+	       	int i, avg, sum=0;
 		System.out.println("please enter 10 number:");
 			
 		int[] arr = new int[10];
@@ -16,8 +16,8 @@ public class LabAssignment1_2june_Average
 		}
 
 		for(i=0; i<10; i++) 
-		num +=arr[i];
-                avg=num/10;
+		sum +=arr[i]; //  calculate sum of enterd number 
+                avg=sum/10;   // calcutate average 
                 System.out.println("Average of the integers is "+avg);
 	 }
 }
